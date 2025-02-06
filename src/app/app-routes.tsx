@@ -9,9 +9,9 @@ const BasicFeature = lazy(() => import('../components/basic/basic-feature'))
 const DashboardFeature = lazy(() => import('../components/dashboard/dashboard-feature'))
 
 const links: { label: string; path: string }[] = [
-  { label: 'Account', path: '/account' },
-  { label: 'Clusters', path: '/clusters' },
-  { label: 'Basic Program', path: '/basic' },
+  { label: 'Dashboard', path: '/dashboard' },
+  { label: 'Health Records', path: '/records' },
+  { label: 'Appointments', path: '/appointments' },
 ]
 
 const routes: RouteObject[] = [
